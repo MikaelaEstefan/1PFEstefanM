@@ -15,6 +15,7 @@ import { UsersComponent } from './dashboard/pages/users/users.component';
 import { UsersDialogComponent } from './users/components/users-dialog/users-dialog.component';
 import { UsersTableComponent } from './dashboard/pages/users/components/users-table/users-table.component';
 import { ModelsComponent } from './dashboard/pages/users/models/models.component';
+import { UserEditDialogComponent } from './dashboard/pages/users/components/user-edit-dialog/user-edit-dialog.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ModelsComponent } from './dashboard/pages/users/models/models.component
     UsersComponent,
     UsersDialogComponent,
     UsersTableComponent,
-    ModelsComponent
+    ModelsComponent,
+    UserEditDialogComponent
   ],
   imports: [
     BrowserModule,

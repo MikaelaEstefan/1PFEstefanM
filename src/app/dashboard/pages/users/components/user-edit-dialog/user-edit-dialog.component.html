@@ -1,0 +1,17 @@
+<!-- user-edit-dialog.component.html -->
+<h2>Editar Usuario</h2>
+<form [formGroup]="userForm" (ngSubmit)="guardarCambios()">
+  <mat-form-field>
+    <input matInput formControlName="nombre" placeholder="Nombre">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput formControlName="apellido" placeholder="Apellido">
+  </mat-form-field>
+
+  <mat-form-field>
+    <input matInput formControlName="email" placeholder="Email">
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">Guardar</button>
+</form>
